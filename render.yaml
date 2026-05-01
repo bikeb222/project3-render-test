@@ -2,7 +2,6 @@ services:
   - type: web
     name: project3-render-test
     runtime: static
-    plan: free
     buildCommand: echo "No build needed for this static test site"
     staticPublishPath: ./public
     previews:
