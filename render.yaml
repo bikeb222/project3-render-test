@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: project3-render-test
+    runtime: static
+    buildCommand: echo "No build needed for this static test site"
+    staticPublishPath: ./public
+    previews:
+      generation: automatic
